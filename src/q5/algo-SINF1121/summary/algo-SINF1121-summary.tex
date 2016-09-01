@@ -2162,7 +2162,6 @@ connected edge-weighted graph.
 \subsubsection{Kruskal's algorithm}
 
 \lstinputlisting{code/Kruskal2.java}
-
 \subsubsection{Summary}
 
 \begin{figure}[H]
@@ -2174,6 +2173,7 @@ connected edge-weighted graph.
 
 \end{figure}
 
+\underlined{Note:} Kruskal's algorithm is generally slower than Prim's algorithm because it has to do a \texttt{connected()} operation for each edge, in addition to the priority-queue operations that both algorithms do for each edge processed.
 
 \subsection{Shortest path}
 
